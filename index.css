@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+
+    background-color:black ;
+}
+
+
+.main {
+
+
+
+    background-image: url(bg.jpg);
+    background-position: center center;
+    height: 85vh;
+    background-size: max(2000px, 100vw);
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+
+
+}
+
+.box {
+
+
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+
+
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90vw;
+    height: 62px;
+    margin: auto;
+
+
+}
+
+.logo {
+
+    height: 100px;
+    width: 124px;
+    color: darkred;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.hero {
+
+    height:calc(100% - 62PX);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0 30px;
+
+}
+
+
+.hero >:first-child {
+
+    font-weight: 900;
+    font-size: 40px;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.hero >:nth-child(2) {
+
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.hero >:nth-child(3) {
+
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+.line{
+
+    background-color:rgb(51, 50, 50);
+    height: 5px;
+    
+}
+.btn{
+
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+
+
+}
+.btn-red{
+
+    background-color: red;
+    color:white;    
+    padding:5px 25px;
+    font-size:20px;
+    border-radius: 5px;
+    border: 2px solid red;
+
+
+
+
+}
+
+.btn-red-sm{
+
+    background-color: red;
+    color: white;    
+    border: 1px solid red;
+    
+
+
+
+}
+.main input{
+
+    color:white;    
+    padding:7px 101px 8px 14px;
+    font-size:12px;
+    background-color: rgb(23,23,23,0.7);
+    font-weight:900;
+    border: 1px solid  rgba(255, 255, 255, 0.5);
+    
+
+}
+
+.hero-button{
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 16px;
+    flex-wrap: wrap;
+    
+
+}
+ .first{
+
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    height: 60vh;
+    column-gap: 120px;
+    flex-wrap:wrap;
+}
+.secimg img{
+
+
+    width: 100vw;
+    position: relative;
+    z-index: 10;
+
+
+}
+.secimg{
+
+
+    position: relative;
+
+    
+}
+
+.first-video{
+
+    position: absolute;
+    width: 10vw;
+    height:29vh;
+    right:400px ;
+    z-index: 0;
+
+} 
+
+.first > div{
+
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+
+}
+.first > div :first-child{
+
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+.first > div :nth-child(2){
+
+    font-size: 15px;
+
+    
+
+}  
+.sec-boximg{
+
+    height: 140px;
+    width: 168px;
+
+}
+.third-img{
+
+    
+    height: 200px;
+    width: 300px;
+}
+
+.four-img{
+
+    height: 127px;
+    width: 120px;
+
+}
+.feq h2{
+
+    text-align: center;
+    font: 48px;
+}
+
+.feq{
+
+    background-color:black ;
+    color: white;
+    padding:24px;
+    font-size: 24px;
+    
+
+ }
+
+
+
+ 
+.feqbox:hover {
+
+    background-color: rgb(37,36,36) ;
+    color: white;
+}
+
+.feqbox{
+    
+    
+    
+    transition: all 1s ease-out ;
+    background-color:#2d2d2d;
+    color: white;
+    justify-content:space-between;
+    display: flex;
+    padding:24px;
+    margin: 34px auto;   
+    max-width: 60vw;
+    cursor: pointer;
+    
+
+
+
+}
+
+footer{
+
+    color: white;
+
+}
+
+footer  a {
+
+    text-decoration: none;
+    font-size:12px;
+    color: white;
+    margin: 34px auto;
+
+}
+
+
+footer > div{
+
+    margin: 30px 30px;
+
+}
+.footer{
+
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 40vw;
+    justify-content: center;
+    column-gap: 49px;
+    margin: 31px auto;
+    /* padding:12px auto; */
+
+}
+
+.footer-items{
+
+    display: flex ; 
+    flex-direction:column; 
+    /* /* color:white; 
+        flex:wrap; /*    */
+
+}
+@media only screen and (max-width:375px){
+    
+    .nav{
+
+            background-color: red;
+    }
+
+}
+
+
